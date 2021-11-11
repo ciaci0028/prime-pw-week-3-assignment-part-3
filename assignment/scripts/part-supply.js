@@ -31,16 +31,16 @@ supplyChanges.push(25);
 //    - if the value is 0, log 'No Change.'
 //    - if the value is negative, format the log as 'Removed x parts.'
 console.log('6. Showing supplyChanges...');
-for ( let i = 0; i < supplyChanges.length; i++ ){
-  console.log(supplyChanges[i]);
-  if ( supplyChanges[i] > 0 ){
-    console.log( 'Added ' + supplyChanges[i] + ' parts.' );
+for ( let x = 0; x < supplyChanges.length; x++ ){
+  console.log(supplyChanges[x]);
+  if ( supplyChanges[x] > 0 ){
+    console.log( 'Added ' + supplyChanges[x] + ' parts.' );
   } // end positive number
-  else if ( supplyChanges[i] === 0){
+  else if ( supplyChanges[x] === 0){
   console.log( 'No Change.');
   } // end zero
-  else if ( supplyChanges[i] < 0 ){
-  console.log( 'Removed ' + supplyChanges[i] + ' parts.' );
+  else if ( supplyChanges[x] < 0 ){
+  console.log( 'Removed ' + supplyChanges[x] + ' parts.' );
   } // end negative number
 } // end for
 
